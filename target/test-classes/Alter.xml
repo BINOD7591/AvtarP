@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Alter">
+	<test name="ActitimeLogin">
+		<classes>
+			<class name="basics.PolymorPhismAlter">
+				<methods>
+					<include name="lunchApp" />
+					<include name="login" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

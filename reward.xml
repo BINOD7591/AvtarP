@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="7">
+  <test name="1">
+  <parameter name="userName" value="stratchcool95@gmail.com" />
+  <parameter name="password" value="Binod@1995" />
+    <classes>
+      <class name="basicstestng.ChromeReward"/>
+    </classes>
+  </test>
+  <test name="2">
+  <parameter name="userName" value="kumarbinodvoda2@gmail.com" />
+  <parameter name="password" value="Binod@1995" />
+    <classes>
+      <class name="basicstestng.ChromeReward"/>
+    </classes>
+  </test>
+  <test name="3">
+  <parameter name="userName" value="binodpubg10@gmail.com" />
+  <parameter name="password" value="Binod@1995" />
+    <classes>
+      <class name="basicstestng.ChromeReward"/>
+    </classes>
+  </test>
+  <test name="4">
+  <parameter name="userName" value="tonystratch@gmail.com" />
+  <parameter name="password" value="Binod@1995" />
+    <classes>
+      <class name="basicstestng.ChromeReward"/>
+    </classes>
+  </test>
+  <test name="5">
+  <parameter name="userName" value="prustybinod27@gmail.com" />
+  <parameter name="password" value="Binod@1995" />
+    <classes>
+      <class name="basicstestng.ChromeReward"/>
+    </classes>
+  </test>
+  <test name="6">
+  <parameter name="userName" value="binodpubg11@gmail.com" />
+  <parameter name="password" value="Binod@1995" />
+    <classes>
+      <class name="basicstestng.ChromeReward"/>
+    </classes>
+  </test>
+  <test name="7">
+  <parameter name="userName" value="binodvk23@gmail.com" />
+  <parameter name="password" value="Binod@1995" />
+    <classes>
+      <class name="basicstestng.ChromeReward"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="start(failed)">
+    <parameter name="browserName" value="google"/>
+    <classes>
+      <class name="basics.Basics">
+        <methods>
+          <include name="lunchApp"/>
+          <include name="lunchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- basics.Basics -->
+    </classes>
+  </test> <!-- start(failed) -->
+</suite> <!-- Failed suite [demo] -->
